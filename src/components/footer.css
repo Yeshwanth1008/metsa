@@ -1,0 +1,53 @@
+.footer-container {
+    display: flex;
+    gap: 40px;
+  align-items: center;
+  justify-content: space-around;
+    width: 100%;
+   margin-top: 5vw;
+}
+
+.read-about {
+    margin: 50px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    color: #000000;
+}
+
+.read-about a {
+    text-decoration: none;
+}
+
+.read-about a:visited {
+    color: #000000;
+}
+
+.row1 li {
+    margin: 15px;
+    color: #000000;
+    list-style: none;
+    max-width: 100%;
+}
+
+.row1 li a {
+    text-decoration: none;
+}
+
+.row1 li a:visited {
+    color: #000000;
+}
+
+.row1 {
+    margin-bottom: 100px;
+}
+
+
+
+@media screen and (max-width:768px){
+    .footer-container {
+        flex-wrap: wrap; /* Allow flex items to wrap to new rows */
+        gap: 0px;
+        margin-top: 7vw;
+        
+    }
+}

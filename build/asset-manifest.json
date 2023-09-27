@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8145bcfd.css",
+    "main.js": "/static/js/main.3e51a9c4.js",
+    "static/media/headerimg3.png": "/static/media/headerimg3.8fb3bf6d61135b88559d.png",
+    "static/media/iitmadras.jpg": "/static/media/iitmadras.87787db1a55513615474.jpg",
+    "static/media/headerimg11.png": "/static/media/headerimg11.e397e72768f265b6508c.png",
+    "static/media/iitmadrasevent5.jpeg": "/static/media/iitmadrasevent5.ddff6abeb23c07919ad5.jpeg",
+    "static/media/headerimg.jpg": "/static/media/headerimg.c510ce1993d93e350837.jpg",
+    "static/media/logo.png": "/static/media/logo.c7a2eb1aeeb379d6773e.png",
+    "static/media/iitmadrasevent3.jpg": "/static/media/iitmadrasevent3.428cd298dd200dddbc49.jpg",
+    "static/media/iitmadrasevent2.jpg": "/static/media/iitmadrasevent2.75bf62ad8b002b524766.jpg",
+    "static/media/iitmadrasevent1.jpg": "/static/media/iitmadrasevent1.2ee08749ecc6308655ce.jpg",
+    "index.html": "/index.html",
+    "main.8145bcfd.css.map": "/static/css/main.8145bcfd.css.map",
+    "main.3e51a9c4.js.map": "/static/js/main.3e51a9c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8145bcfd.css",
+    "static/js/main.3e51a9c4.js"
+  ]
+}

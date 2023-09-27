@@ -1,0 +1,206 @@
+  /* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.header_img {
+    position: relative;
+}
+
+.header_heading {
+    font-size: 13vw;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
+
+
+
+
+
+.homepage_intro{
+    display: flex;
+   margin: 2vw;
+   gap: 2.8vw;
+  
+
+}
+.homepage_left{
+   width: 50%; 
+   background-color: black;
+   height: 24vw;
+   padding: 1.5vw;
+ 
+   border-radius: 15px;
+}
+.homepage_left h1{
+    padding-top: 3vw ;
+   padding-left: 3vw;
+    color: white;
+   
+}
+.homepage_left h3{
+    color: rgb(173, 165, 165);
+    padding:0 3vw;
+    padding-top: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.homepage_right{
+    width: 45%;
+    height: 24vw;
+    
+    border-radius: 15px;
+}
+.homepage_right img{
+    border-radius: 15px;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header Styles */
+.header_img {
+    position: relative;
+    width: 1345px;
+    height: 800px;
+    background-image: url('../assets/headerimg.jpg');
+}
+
+.header_heading {
+    font-size: 13vw;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* Homepage Introduction Styles */
+.homepage_intro {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw;
+    gap: 2.8vw;
+}
+
+.homepage_left {
+    width: 50%;
+    background-color: black;
+    padding: 1.5vw;
+    border-radius: 15px;
+    margin-bottom: 2vw; /* Add some space between left and right sections */
+}
+
+.homepage_left h1 {
+    padding-top: 3vw;
+    padding-left: 3vw;
+    color: white;
+}
+
+.homepage_left h3 {
+    color: rgb(173, 165, 165);
+    padding: 0 3vw;
+    padding-top: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.homepage_right {
+    
+    width: 45%;
+    margin-bottom: 2vw; 
+}
+
+.homepage_right img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .header_img {
+        background-image: url('../assets/headerimg11.png');
+        position: relative;
+        /* width: 400px;
+        height: 400px; */
+        width: 100%;
+        height:300px;
+      
+    }
+    
+    .header_heading {
+        font-size: 17vw;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    .homepage_intro {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .homepage_left {
+        
+       width:100%;
+        background-color: black;
+       
+        border-radius: 15px;
+        padding: 2vw;
+       
+    }
+    .homepage_right img {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .homepage_right {
+       
+        width: 100%;
+        margin-bottom: 2vw; 
+    }
+    .homepage_left h1 {
+        padding-top: 3vw;
+        padding-left: 3vw;
+        color: white;
+        font-size: 5vw;
+    }
+    
+    .homepage_left h3 {
+        color: rgb(173, 165, 165);
+        padding: 3vw 7vw;
+        padding-top: 2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+    }
+  
+}

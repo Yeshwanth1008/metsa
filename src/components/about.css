@@ -1,0 +1,57 @@
+.about_heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2vw;
+}
+.about_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.about_image img {
+    border-radius: 15px;
+}
+.about_imagepara{
+    padding:0 7vw;
+    font-size: large;
+    padding-top: 3vw;
+  font-weight: 600;
+}
+
+.aboutus_all{
+    padding: 1vw 7vw;
+}
+.aboutus_all h2{
+    padding: 1vw;
+}
+.aboutus_all p{
+    font-size: large;
+}
+   
+@media screen and (max-width:768px){
+   .about_image img{
+       width: 100%;
+       margin: 1vw;
+   }
+   .about_imagepara{
+    padding:0 7vw;
+    font-size:larger;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutus_all{
+    padding: 1vw 7vw;
+}
+.aboutus_all h2{
+    padding: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutus_all p{
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+}
